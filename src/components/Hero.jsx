@@ -13,7 +13,7 @@ function Hero(){
                     <h1 className="text-4xl font-bold text-green-600  italic ">Bottled Fresh.</h1>
                     <p className="py-4">We slow-press the finest organic fruits and vegetables within hours of harvest — no heat, 
                         no additives, nothing artificial. Just living nutrition that your body actually absorbs.</p>
-                    <button className="bg-orange-400 p-4 rounded-2xl text-white flex items-center "><p className="mr-2">Explore our Healthy Drinks</p> <VscArrowSmallRight /></button>    
+                    <button className="bg-green-100  p-4 rounded-2xl text-white flex items-center "><p className="mr-2">Explore our Healthy Drinks</p> <VscArrowSmallRight /></button>    
                     
                 </div>
 
