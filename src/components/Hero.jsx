@@ -5,15 +5,16 @@ import coverImg from "/assets/coverImg.png";
 function Hero(){
     return(
 
-        <section id="hero" className="flex flex-col">
+        <div id="hero" className="flex flex-col w-full px-auto">
+            
 
-            <div className="flex flex-col md:flex-row mx-auto bg-amber-100 w-full py-2">
+            <div className="flex flex-col md:flex-row justify-center w-full gap-2 bg-amber-100 py-2 px-10">
                 <div className="w-full md:w-1/2 pb-2 ">
-                    <h1 className="text-4xl font-bold text-green-700 ">Pure Nature,</h1>
-                    <h1 className="text-4xl font-bold text-green-600  italic ">Bottled Fresh.</h1>
-                    <p className="py-4">We slow-press the finest organic fruits and vegetables within hours of harvest — no heat, 
+                    <h1 className="text-4xl font-bold text-green-700 font-inter ">Pure Nature,</h1>
+                    <h1 className="text-4xl font-bold text-green-600  italic font-inter ">Bottled Fresh.</h1>
+                    <p className="py-4">We slow-press the finest organic fruits and<br/> vegetables within hours of harvest — no heat,<br/> 
                         no additives, nothing artificial. Just living nutrition that your body actually absorbs.</p>
-                    <button className="bg-green-100  p-4 rounded-2xl text-white flex items-center "><p className="mr-2">Explore our Healthy Drinks</p> <VscArrowSmallRight /></button>    
+                    <button className="bg-orange-400 p-4 rounded-2xl text-white flex items-center "><p className="mr-2">Explore our Healthy Drinks</p> <VscArrowSmallRight /></button>    
                     
                 </div>
 
@@ -24,7 +25,7 @@ function Hero(){
                
 
             </div>
-        </section>
+        </div>
 
     )
 }

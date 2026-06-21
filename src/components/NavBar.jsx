@@ -5,102 +5,132 @@ import { MdClose } from "react-icons/md";
 
 function NavBar() {
   const [open, setOpen] = useState(false);
+  const navref =[
+    {
+      name:"Product",
+      url: "#product"
+    },
+     {
+      name:"Story",
+      url: "#story"
+    },
+     {
+      name:"Benefit",
+      url: "#benefit"
+    },
+
+     {
+      name:"Review",
+      url: "#review"
+    },
+     {
+      name:"Contact",
+      url: "#contact"
+    }
+  ]
   return (
     <>
-      <nav className="flex bg-green-950 shadow-md  py-2 px-6 justify-between items-center sticky top-0 z-10 ">
-        <img src={logo} alt="brand logo" className=" size-12" />
+      <div className="relative">
+        <nav className="flex bg-green-950 shadow-md h-20 py-2 px-6 justify-between items-center  sticky top-0 z-10 ">
+          <div className="h-20 overflow-hidden">
+            <img src={logo} alt="brand logo" className=" size-24" />
+          </div>  
 
-        <div className="hidden lg:flex space-x-6">
-          <a
-            href="#product"
-            className="font-medium text-gray-200 hover:text-green-500 transition"
-          >
-            Product
-          </a>
-          <a
-            href="#product"
-            className="font-medium text-gray-200 hover:text-green-500 transition"
-          >
-            Our Story
-          </a>
-          <a
-            href="#product"
-            className="font-medium text-gray-200 hover:text-green-500 transition"
-          >
-            Benefits
-          </a>
-          <a
-            href="#product"
-            className="font-medium text-gray-200 hover:text-green-500 transition"
-          >
-            Reviews
-          </a>
-          <a
-            href="#product"
-            className="font-medium text-gray-200 hover:text-green-500 transition"
-          >
-            Contact
-          </a>
-        </div>
-        <button className="bg-green-700 text-gray-200 rounded-lg py-1  px-2 text-[10px] hidden lg:block ">
-          Shop Now
-        </button>
+          <div className="md:flex md:flex-row justify-between hidden ">
+            <div className=" md:flex space-x-6 mx-6">
+              <a
+                href="#product"
+                className="font-medium text-gray-200 hover:text-green-500 transition"
+              >
+                Product
+              </a>
+              <a
+                href="#product"
+                className="font-medium text-gray-200 hover:text-green-500 transition"
+              >
+                Our Story
+              </a>
+              <a
+                href="#product"
+                className="font-medium text-gray-200 hover:text-green-500 transition"
+              >
+                Benefits
+              </a>
+              <a
+                href="#product"
+                className="font-medium text-gray-200 hover:text-green-500 transition"
+              >
+                Reviews
+              </a>
+              <a
+                href="#product"
+                className="font-medium text-gray-200 hover:text-green-500 transition"
+              >
+                Contact
+              </a>
+            </div>
+            <button className="bg-green-700 text-gray-200 rounded-lg py-1  px-2 text-[10px]  ">
+              Shop Now
+            </button>
 
-        {/* mobile nav */}
-        <div className="block lg:hidden relative">
-          {open ? (
-            <MdClose
+          </div>
+
+         {open ? 
+              <MdClose
               className="text-white cursor-pointer"
               onClick={() => setOpen(false)}
-            />
-          ) : (
-            <RxHamburgerMenu
-              className="text-white cursor-pointer"
+              />
+             :
+             <RxHamburgerMenu
+              className="text-white cursor-pointer block md:hidden"
               onClick={() => setOpen(true)}
-            />
-          )}
+            />} 
+
+
+           {/* mobile nav */}
+           
+         
+           
+          
 
           {open && (
-            <div className="bg-white  w-full  rounded-md absolute right-0 top-full ">
-                <div className="flex flex-col lg:hidden right-0 w-71 bg-amber-100 flex-wrap ">
-          <a
-            href="#product"
-            className="font-medium text-gray-200 hover:text-green-500 transition mb-2"
+            <div className=" w-full max-w-[320px] md:hidden z-100 bg-green-950 absolute right-0 top-0 mt-20 ">
+             <div>
+
+              
+
+             </div>
+          <div className="flex flex-col px-4 ">
+            
+          { navref.map(ref => 
+             <a
+            href={ref.url}
+            className="font-medium text-white hover:text-green-500 hover:bg-green-500/20 transition mb-2"
           >
-            Product
+            {ref.name}
           </a>
-          <a
-            href="#product"
-            className="font-medium text-gray-200 hover:text-green-500 transition"
-          >
-            Our Story
-          </a>
-          <a
-            href="#product"
-            className="font-medium text-gray-200 hover:text-green-500 transition"
-          >
-            Benefits
-          </a>
-          <a
-            href="#product"
-            className="font-medium text-gray-200 hover:text-green-500 transition"
-          >
-            Reviews
-          </a>
-          <a
-            href="#product"
-            className="font-medium text-gray-200 hover:text-green-500 transition"
-          >
-            Contact
-          </a>
-        </div>
+          )
+          
+          }
+          
+          </div>
+          
+       
         <button className="bg-green-700 text-gray-200 rounded-lg py-1  px-2 text-[10px] hidden lg:block ">
           Shop Now
         </button>
             </div>
           )}
-        </div>
-      </nav>
+        
+  
+
+          
+        </nav>
+
+        
+       
+
+      </div>
     </>
   );
 }
