@@ -1,5 +1,5 @@
 import { VscArrowSmallRight } from "react-icons/vsc";
-import logo from "/assets/logo.jpeg";
+import coverImg from "/assets/coverImg.png";
 
 
 function Hero(){
@@ -17,8 +17,8 @@ function Hero(){
                     
                 </div>
 
-                <div className="flex overflow-y-hidden flex-row justify-end h-[265px] ">
-                    <img src={logo} className="object-cover w-full"/>
+                <div className="flex overflow-y-hidden flex-row justify-end h-67 ">
+                    <img src={coverImg} className="object-cover w-full rounded-lg"/>
                 </div>
 
                

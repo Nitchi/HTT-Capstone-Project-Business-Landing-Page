@@ -1,5 +1,9 @@
-import melonBurst from "/assets/melonBurst.jpeg";
-import pineNBeet from "/assets/pineNBeet.jpeg";
+import melonBurst from "/assets/melonBurst.png";
+import pineNBeet from "/assets/pineNBeet.png";
+import pureMango from "/assets/pureMango.png";
+import purePineapple from "/assets/purePineapple.png";
+import sunrise from "/assets/sunrise.png";
+
 
 
 const products =[
@@ -29,7 +33,7 @@ const products =[
         name: "Pure Pineapple",
         category: "fruitJuice",
         price: 3000,
-        photo:pineNBeet,
+        photo:purePineapple,
         ingredients: "Pineapple, and Ginger",
         detail: "qgq"
     },
@@ -39,7 +43,7 @@ const products =[
         name: "Sunrise",
         category: "fruitJuice",
         price: 3000,
-        photo:pineNBeet,
+        photo:sunrise,
         ingredients: "Pineapple, Carrot, and Apple",
         detail: "wqgrg"
     },
@@ -49,7 +53,7 @@ const products =[
         name: "Pure Mango",
         category: "fruitJuice",
         price: 3000,
-        photo:pineNBeet,
+        photo:pureMango,
         ingredients: "Mango",
         detail: "wgrgw"
     },
