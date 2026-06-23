@@ -1,11 +1,17 @@
 import { VscArrowSmallRight } from "react-icons/vsc";
 import coverImg from "/assets/coverImg.png";
+import coverPic from "/assets/coverPic.png";
 
 
 function Hero(){
     return(
 
-        <div id="hero" className="flex flex-col w-full px-auto">
+        <div id="hero" className="flex flex-col w-full px-auto bg-center bg-cover"
+                        style={{
+                                backgroundImage: `url(${coverPic})`,
+                                backgroundSize: "cover",
+                                backgroundPosition: "center",
+                            }}>
             
 
             <div className="flex flex-col md:flex-row justify-center w-full gap-2 bg-amber-100 py-2 px-10">

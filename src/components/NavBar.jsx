@@ -32,8 +32,8 @@ function NavBar() {
     <>
       <div className="relative">
         <nav className="flex bg-green-950 shadow-md h-20 py-2 px-6 justify-between items-center  sticky top-0 z-10 ">
-          <div className="h-20 overflow-hidden">
-            <img src={logo} alt="brand logo" className=" size-24" />
+          <div className="h-20 overflow-hidden flex items-center justify-center">
+            <img src={logo} alt="brand logo" className=" h-8 w-12 md:h-12 md:w-18" />
           </div>  
 
           <div className="md:flex md:flex-row justify-between hidden ">
@@ -45,31 +45,31 @@ function NavBar() {
                 Product
               </a>
               <a
-                href="#product"
+                href="#ourStory"
                 className="font-medium text-gray-200 hover:text-green-500 transition"
               >
                 Our Story
               </a>
               <a
-                href="#product"
+                href="#benefit"
                 className="font-medium text-gray-200 hover:text-green-500 transition"
               >
                 Benefits
               </a>
               <a
-                href="#product"
+                href="#review"
                 className="font-medium text-gray-200 hover:text-green-500 transition"
               >
                 Reviews
               </a>
               <a
-                href="#product"
+                href="#contact"
                 className="font-medium text-gray-200 hover:text-green-500 transition"
               >
                 Contact
               </a>
             </div>
-            <button className="bg-green-700 text-gray-200 rounded-lg py-1  px-2 text-[10px]  ">
+            <button className="bg-green-700 text-gray-200 rounded-lg py-1  px-2 text-[10px] md:text-[15px] ">
               Shop Now
             </button>
 

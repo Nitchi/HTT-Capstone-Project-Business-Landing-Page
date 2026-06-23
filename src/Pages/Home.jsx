@@ -1,6 +1,13 @@
 import FAQ from "../components/Faq";
+
+
 import Hero from "../components/Hero";
 import ProductsGrid from "../components/ProductsGrid";
+import GetQuote from "../components/QuoteApi";
+
+
+
+import ReviewGrid from "../components/ReviewGrid";
 
 function Home(){
     return (
@@ -8,10 +15,18 @@ function Home(){
 
         <Hero />
 
+        
         <ProductsGrid />
 
 
         <FAQ />
+
+        <GetQuote />
+
+
+        
+
+        
 
         
 
