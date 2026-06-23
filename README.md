@@ -3,21 +3,21 @@
 A modern and responsive healthy drinks website built with React and Tailwind CSS. The website showcases a variety of natural fruit juices and healthy beverages through a user-friendly interface designed to promote healthy living.
 
 # Features
-Responsive design for mobile, tablet, and desktop devices
-A mobile menu toggle 
-Product showcase with pricing
-Modal pop-up for product details
-Customer reviews 
-Daily inspiration quote section that's being refreshes when the page refreshes. The Quote API is being fetched from DummyJSON
-Accrdion/FAQ
-Clean UI
+- Responsive design for mobile, tablet, and desktop devices
+- A mobile menu toggle 
+- Product showcase with pricing
+- Modal pop-up for product details
+- Customer reviews 
+- Daily inspiration quote section that's being refreshes when the page refreshes. The Quote API is being fetched from DummyJSON
+- Accrdion/FAQ
+- Clean UI
 
 # Technologies Used
-React
-Vite
-Tailwind CSS
-JavaScript 
-Axios
+- React
+- Vite
+- Tailwind CSS
+- JavaScript 
+- Axios
 
 
 
