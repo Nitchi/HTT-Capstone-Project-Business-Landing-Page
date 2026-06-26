@@ -188,9 +188,4 @@ export default ReviewGrid;
 
 
 
-               
-
-        //     </div>
-        //     </div>
-
-        // </section>
+            
