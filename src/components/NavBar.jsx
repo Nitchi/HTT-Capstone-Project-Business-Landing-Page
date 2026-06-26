@@ -10,28 +10,35 @@ function NavBar() {
       name:"Product",
       url: "#product"
     },
-     {
-      name:"Story",
-      url: "#story"
-    },
-     {
-      name:"Benefit",
-      url: "#benefit"
-    },
-
-     {
+    
+    // {
+    //   name:"Story",
+    //   url: "#story"
+    // },
+    
+    
+    {
       name:"Review",
       url: "#review"
     },
-     {
+
+    {
+      name:"FAQ",
+      url: "#faq"
+    },
+
+
+    {
       name:"Contact",
       url: "#contact"
-    }
+    },
+
+   
   ]
   return (
     <>
-      <div className="relative">
-        <nav className="flex bg-green-950 shadow-md h-20 py-2 px-6 justify-between items-center  sticky top-0 z-10 ">
+      <div className="relative  sticky top-0 z-10">
+        <nav className="flex bg-green-950 shadow-md h-20 py-2 px-6 justify-between items-center  ">
           <div className="h-20 overflow-hidden flex items-center justify-center">
             <img src={logo} alt="brand logo" className=" h-8 w-12 md:h-12 md:w-18" />
           </div>  
@@ -44,24 +51,27 @@ function NavBar() {
               >
                 Product
               </a>
-              <a
+              {/* <a
                 href="#ourStory"
                 className="font-medium text-gray-200 hover:text-green-500 transition"
               >
                 Our Story
-              </a>
-              <a
-                href="#benefit"
-                className="font-medium text-gray-200 hover:text-green-500 transition"
-              >
-                Benefits
-              </a>
+              </a> */}
+              
               <a
                 href="#review"
                 className="font-medium text-gray-200 hover:text-green-500 transition"
               >
                 Reviews
               </a>
+
+              <a
+                href="#faq"
+                className="font-medium text-gray-200 hover:text-green-500 transition"
+              >
+                FAQ
+              </a>
+
               <a
                 href="#contact"
                 className="font-medium text-gray-200 hover:text-green-500 transition"
@@ -69,9 +79,14 @@ function NavBar() {
                 Contact
               </a>
             </div>
-            <button className="bg-green-700 text-gray-200 rounded-lg py-1  px-2 text-[10px] md:text-[15px] ">
+            <a 
+               href="https://storefront.payxy.africa/2a11dVLH6unFUNXkG"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-green-700 text-gray-200 rounded-lg py-1  px-2 text-[10px] md:text-[15px] ">
               Shop Now
-            </button>
+            </a>
+            
 
           </div>
 
@@ -112,6 +127,15 @@ function NavBar() {
           )
           
           }
+
+          <a
+          href="https://storefront.payxy.africa/2a11dVLH6unFUNXkG"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-white hover:text-green-500 hover:bg-green-500/20 transition mb-2"
+          >
+          Shop Now  
+          </a>
           
           </div>
           

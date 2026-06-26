@@ -97,7 +97,7 @@ const products =[
         id: 9,
         name: "Tigernut Drink",
         category: "Healthy Sips",
-        price: 1500,
+        price: 2000,
         photo:tigernut,
         ingredients: "Tigernut, Date,Coconut, Banana, and Ginger",
         detail: "jsjwgwwg"

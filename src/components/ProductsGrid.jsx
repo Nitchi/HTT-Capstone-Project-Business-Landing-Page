@@ -16,8 +16,6 @@ function ProductsGrid(){
 
 
 
-    
-
     return(
 
         <section id="product">
@@ -95,3 +93,72 @@ function ProductsGrid(){
 
 
 export default ProductsGrid;
+
+
+
+        // <section id="product">
+
+             
+        //         <div className="mt-10 p-4 rounded-sm">
+        //             <h2 className=" text-3xl font-semibold text-green-700 font-inter shadow-sm">Our Menu</h2>
+        //         </div>
+        //     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4  md:gap-6 md:gap-y-6 p-4">
+               
+
+        //         {products.map((product, idx) => (
+
+        //             <div key={product.id} className="bg-white flex flex-col justify-between  rounded-lg shadow-md h-90 md:h-100 pb-2 hover:shadow-lg  px-4 transition">
+        //                 <div className="h-[65%]">
+        //                     <img src={product.photo} alt={product.name}
+        //                     className="w-full h-full  object-contain cursor-pointer"
+        //                     />
+        //                 </div>    
+                        
+        //                 <div>
+        //                     <div className="p-4 flex justify-between">
+        //                         <div>
+        //                             <h3 className="font-semibold text-lg cursor-pointer hover:text-green-400"
+        //                                 // onclick="viewProductDetails(${product.id})"> 
+        //                                 >
+                                        
+        //                                 {product.name}
+        //                             </h3>
+        //                             <p className="text-gray-600 text-sm">{product.category}</p>
+                                    
+        //                         </div>
+
+        //                         <div className="flex justify-between items-center mt-2">
+        //                                 <span className="text-2xl font-bold text-green-400">₦{product.price}</span>
+                                        
+        //                         </div>
+
+        //                     </div>
+
+                            
+        //                     <button
+        //                     onClick={() => handleClick(idx)}
+        //                     className   ="w-full mt-3 bg-green-600 text-white py-2 rounded hover:bg-orange-400 cursor-pointer transition">
+        //                         View Details
+
+        //                     </button>
+        //                 </div>   
+
+                        
+                          
+        //             </div>
+
+                    
+
+
+        //         ))}
+                
+                
+
+        //     </div>
+          
+
+            
+
+        //   {open && <ProductModal idx={selectedProd} onClose={setOpen} /> } 
+
+        // </section>
