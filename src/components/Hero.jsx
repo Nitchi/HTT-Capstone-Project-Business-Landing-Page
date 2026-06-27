@@ -20,7 +20,7 @@ function Hero(){
                                 }}>
                 
 
-                <div className="flex flex-row w-full gap-2  py-2 px-10">
+                <div className="flex flex-col md:flex-row w-full gap-2  py-2 px-10">
                     <div className="w-full md:w-1/2 pb-2 ">
                         <h1 className="text-4xl font-bold text-green-700 font-inter ">Pure Nature,</h1>
                         <h1 className="text-4xl font-bold text-green-600  italic font-inter ">Bottled Fresh.</h1>
@@ -41,7 +41,7 @@ function Hero(){
 
             {/* mobile hero section  */}
 
-            <div  className="flex flex-col md:hidden w-full py-10 pb-15 ">
+            <div  className="flex flex-col md:hidden w-full pt-10 ">
                                            
 
                 <div className="flex flex-col md:flex-row w-full gap-2  py-2 px-10">

@@ -7,10 +7,13 @@ A modern and responsive healthy drinks website built with React and Tailwind CSS
 - A mobile menu toggle 
 - Product showcase with pricing
 - Modal pop-up for product details
-- Customer reviews 
+- Customer reviews carousel
 - Daily inspiration quote section that's being refreshes when the page refreshes. The Quote API is being fetched from DummyJSON
 - Accrdion/FAQ
 - Clean UI
+
+# Live demo link
+https://htt-capstone-project-business-landi.vercel.app/ 
 
 # Technologies Used
 - React
