@@ -70,24 +70,3 @@ function Hero(){
 
 export default Hero;
 
-{/* <button
-                  className="grid h-11 w-11 place-items-center rounded-full border border-ink/15 md:hidden"
-                  onClick={() => setMenuOpen(!menuOpen)}
-                  aria-label="Toggle mobile menu">
-                
-                  <span className="text-2xl">{menuOpen ? "×" : "☰"}</span>
-          </button>
-
-          
-              {menuOpen && (
-                <div className="border-t border-ink/10 bg-white px-5 py-4 md:hidden">
-                  <div className="mx-auto flex max-w-7xl flex-col gap-4 font-semibold">
-                    <a onClick={() => setMenuOpen(false)} href="#products">Products</a>
-                    <a onClick={() => setMenuOpen(false)} href="#reviews">Reviews</a>
-                    <a onClick={() => setMenuOpen(false)} href="#faq">FAQ</a>
-                    <a onClick={() => setMenuOpen(false)} href="#order" className="rounded-full bg-ink px-5 py-3 text-center text-white">
-                      Order now
-                    </a>
-                  </div>
-                </div>
-              )} */}  

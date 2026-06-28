@@ -5,6 +5,7 @@ A modern and responsive healthy drinks website built with React and Tailwind CSS
 # Features
 - Responsive design for mobile, tablet, and desktop devices
 - A mobile menu toggle 
+- Product filtering
 - Product showcase with pricing
 - Modal pop-up for product details
 - Customer reviews carousel
